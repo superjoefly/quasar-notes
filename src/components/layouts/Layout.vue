@@ -149,6 +149,11 @@
             <q-item-side icon="school" />
             <q-item-main label="Fields" sublabel="Form Fields" />
         </q-side-link>
+
+        <q-side-link item to="/inputs" replace tag="a">
+            <q-item-side icon="school" />
+            <q-item-main label="Inputs" sublabel="Form Inputs" />
+        </q-side-link>
       </q-list>
 
 

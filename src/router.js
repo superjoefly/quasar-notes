@@ -39,6 +39,7 @@ export default new VueRouter({
     { path: '/infinitescroll', component: load('notes/InfiniteScroll') },
     { path: '/buttons', component: load('notes/Buttons') },
     { path: '/fields', component: load('notes/Fields') },
+    { path: '/inputs', component: load('notes/Inputs') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
