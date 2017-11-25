@@ -1,6 +1,6 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">Form Validation</p>
+    <p class="text-bold">Autocomplete</p>
   </div>
 </template>
 

@@ -102,66 +102,84 @@
           </q-btn>
         </q-list-header>
 
-        <q-side-link item to="/start" replace tag="a">
+        <q-side-link item tag="a" to="/start" replace>
             <q-item-side icon="school" />
             <q-item-main label="Start" sublabel="EventBus and Vuex" />
         </q-side-link>
 
-        <q-side-link item to="/flexbox" replace tag="a">
+        <q-side-link item tag="a" to="/flexbox" replace>
             <q-item-side icon="school" />
             <q-item-main label="Flexbox" sublabel="Flexbox Examples" />
         </q-side-link>
 
-        <q-side-link item to="/css" replace tag="a">
+        <q-side-link item tag="a" to="/css" replace>
             <q-item-side icon="school" />
             <q-item-main label="CSS Helpers" sublabel="CSS Helper Examples" />
         </q-side-link>
 
-        <q-side-link item to="/qlayout" replace tag="a">
+        <q-side-link item tag="a" to="/qlayout" replace>
             <q-item-side icon="school" />
             <q-item-main label="QLayout" sublabel="QLayout Info" />
         </q-side-link>
 
-        <q-side-link item to="/navigation" replace tag="a">
+        <q-side-link item tag="a" to="/navigation" replace>
             <q-item-side icon="school" />
             <q-item-main label="Navigation" sublabel="Navigation Info" />
         </q-side-link>
 
-        <q-side-link item to="/pulltorefresh" replace tag="a">
+        <q-side-link item tag="a" to="/pulltorefresh" replace>
             <q-item-side icon="school" />
             <q-item-main label="PullToRefresh" sublabel="PullToRefresh Test" />
         </q-side-link>
 
-        <q-side-link item to="/scrolling" replace tag="a">
+        <q-side-link item tag="a" to="/scrolling" replace>
             <q-item-side icon="school" />
             <q-item-main label="Scrolling" sublabel="Scrolling" />
         </q-side-link>
 
-        <q-side-link item to="/infinitescroll" replace tag="a">
+        <q-side-link item tag="a" to="/infinitescroll" replace>
             <q-item-side icon="school" />
             <q-item-main label="Infinite Scroll" sublabel="Infinite Scroll" />
         </q-side-link>
 
-        <q-side-link item to="/buttons" replace tag="a">
+        <q-side-link item tag="a" to="/buttons" replace>
             <q-item-side icon="school" />
             <q-item-main label="Buttons" sublabel="Form Buttons" />
         </q-side-link>
 
-        <q-side-link item to="/fields" replace tag="a">
-            <q-item-side icon="school" />
-            <q-item-main label="Fields" sublabel="Form Fields" />
-        </q-side-link>
 
-        <q-side-link item to="/inputs" replace tag="a">
-            <q-item-side icon="school" />
-            <q-item-main label="Inputs" sublabel="Form Inputs" />
-        </q-side-link>
+        <!-- Forms -->
+        <q-collapsible indent icon="school" label="Forms" opened >
+          <q-side-link item tag="a" to="/fields" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Fields" sublabel="Form Fields" />
+          </q-side-link>
 
-        <q-side-link item to="/validation" replace tag="a">
-            <q-item-side icon="school" />
-            <q-item-main label="Validation" sublabel="Form Validation" />
-        </q-side-link>
+          <q-side-link item tag="a" to="/inputs" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Inputs" sublabel="Form Inputs" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/validation" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Validation" sublabel="Form Validation" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/chips" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Chips" sublabel="Chips Input" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/autocomplete" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Autocomplete" sublabel="Form Autocomplete" />
+          </q-side-link>
+
+
+        </q-collapsible>
       </q-list>
+
+
 
 
       <!-- Collapsibles -->

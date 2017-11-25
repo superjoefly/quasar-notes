@@ -38,9 +38,12 @@ export default new VueRouter({
     { path: '/scrolling', component: load('notes/Scrolling') },
     { path: '/infinitescroll', component: load('notes/InfiniteScroll') },
     { path: '/buttons', component: load('notes/Buttons') },
-    { path: '/fields', component: load('notes/Fields') },
-    { path: '/inputs', component: load('notes/Inputs') },
-    { path: '/validation', component: load('notes/Validation') },
+    // Forms Notes
+    { path: '/fields', component: load('notes/forms/Fields') },
+    { path: '/inputs', component: load('notes/forms/Inputs') },
+    { path: '/validation', component: load('notes/forms/Validation') },
+    { path: '/chips', component: load('notes/forms/Chips') },
+    { path: '/autocomplete', component: load('notes/forms/Autocomplete') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
