@@ -40,6 +40,7 @@ export default new VueRouter({
     { path: '/buttons', component: load('notes/Buttons') },
     { path: '/fields', component: load('notes/Fields') },
     { path: '/inputs', component: load('notes/Inputs') },
+    { path: '/validation', component: load('notes/Validation') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
