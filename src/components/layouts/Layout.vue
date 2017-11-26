@@ -185,6 +185,11 @@
               <q-item-main label="Sliders" sublabel="Sliders" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/range" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Range" sublabel="Range" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>

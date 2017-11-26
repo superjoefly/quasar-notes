@@ -66,7 +66,9 @@ import Quasar, {
   QChipsInput,
   QKnob,
   QOptionGroup,
-  QAutocomplete
+  QAutocomplete,
+  QSlider,
+  QRange
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -118,7 +120,9 @@ Vue.use(Quasar, {
     QChipsInput,
     QKnob,
     QOptionGroup,
-    QAutocomplete
+    QAutocomplete,
+    QSlider,
+    QRange
   }
 }) // Install Quasar Framework
 
