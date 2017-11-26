@@ -45,6 +45,7 @@ export default new VueRouter({
     { path: '/chips', component: load('notes/forms/Chips') },
     { path: '/autocomplete', component: load('notes/forms/Autocomplete') },
     { path: '/search', component: load('notes/forms/Search') },
+    { path: '/sliders', component: load('notes/forms/Sliders') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

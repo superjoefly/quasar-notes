@@ -180,6 +180,11 @@
               <q-item-main label="Search" sublabel="Search - Textfield" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/sliders" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Sliders" sublabel="Sliders" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
