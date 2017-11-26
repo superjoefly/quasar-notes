@@ -65,7 +65,8 @@ import Quasar, {
   QField,
   QChipsInput,
   QKnob,
-  QOptionGroup
+  QOptionGroup,
+  QAutocomplete
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -116,7 +117,8 @@ Vue.use(Quasar, {
     QField,
     QChipsInput,
     QKnob,
-    QOptionGroup
+    QOptionGroup,
+    QAutocomplete
   }
 }) // Install Quasar Framework
 
