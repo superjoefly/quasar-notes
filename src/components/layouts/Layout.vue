@@ -182,12 +182,17 @@
 
           <q-side-link item tag="a" to="/sliders" replace>
               <q-item-side icon="school" />
-              <q-item-main label="Sliders" sublabel="Sliders" />
+              <q-item-main label="Sliders" sublabel="Slider Inputs" />
           </q-side-link>
 
           <q-side-link item tag="a" to="/range" replace>
               <q-item-side icon="school" />
-              <q-item-main label="Range" sublabel="Range" />
+              <q-item-main label="Range" sublabel="Range Inputs" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/radio" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Radio" sublabel="Radio Buttons" />
           </q-side-link>
 
 
