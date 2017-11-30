@@ -69,7 +69,8 @@ import Quasar, {
   QAutocomplete,
   QSlider,
   QRange,
-  QRadio
+  QRadio,
+  QToggle
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -124,7 +125,8 @@ Vue.use(Quasar, {
     QAutocomplete,
     QSlider,
     QRange,
-    QRadio
+    QRadio,
+    QToggle
   }
 }) // Install Quasar Framework
 
