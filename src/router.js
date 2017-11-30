@@ -49,6 +49,7 @@ export default new VueRouter({
     { path: '/range', component: load('notes/forms/Range') },
     { path: '/radio', component: load('notes/forms/Radio') },
     { path: '/checkbox', component: load('notes/forms/Checkbox') },
+    { path: '/toggle', component: load('notes/forms/Toggle') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

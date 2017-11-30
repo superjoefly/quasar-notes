@@ -200,6 +200,11 @@
               <q-item-main label="Checkbox" sublabel="Checkbox Input" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/toggle" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Toggle" sublabel="Toggle" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
