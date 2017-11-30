@@ -68,7 +68,8 @@ import Quasar, {
   QOptionGroup,
   QAutocomplete,
   QSlider,
-  QRange
+  QRange,
+  QRadio
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -122,7 +123,8 @@ Vue.use(Quasar, {
     QOptionGroup,
     QAutocomplete,
     QSlider,
-    QRange
+    QRange,
+    QRadio
   }
 }) // Install Quasar Framework
 

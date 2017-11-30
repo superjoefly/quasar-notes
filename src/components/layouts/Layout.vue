@@ -195,6 +195,11 @@
               <q-item-main label="Radio" sublabel="Radio Buttons" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/checkbox" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Checkbox" sublabel="Checkbox Input" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
