@@ -52,6 +52,7 @@ export default new VueRouter({
     { path: '/toggle', component: load('notes/forms/Toggle') },
     { path: '/option', component: load('notes/forms/OptionGroup') },
     { path: '/datetime', component: load('notes/forms/Datetime') },
+    { path: '/inlinedatetime', component: load('notes/forms/InlineDatetime') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

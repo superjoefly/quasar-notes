@@ -70,7 +70,9 @@ import Quasar, {
   QSlider,
   QRange,
   QRadio,
-  QToggle
+  QToggle,
+  QDatetime,
+  QItemSeparator
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -126,7 +128,9 @@ Vue.use(Quasar, {
     QSlider,
     QRange,
     QRadio,
-    QToggle
+    QToggle,
+    QDatetime,
+    QItemSeparator
   }
 }) // Install Quasar Framework
 
