@@ -210,6 +210,11 @@
               <q-item-main label="Option Group" sublabel="Option Group Input" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/datetime" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Datetime" sublabel="Datetime" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>

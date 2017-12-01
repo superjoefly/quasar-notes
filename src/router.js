@@ -51,6 +51,7 @@ export default new VueRouter({
     { path: '/checkbox', component: load('notes/forms/Checkbox') },
     { path: '/toggle', component: load('notes/forms/Toggle') },
     { path: '/option', component: load('notes/forms/OptionGroup') },
+    { path: '/datetime', component: load('notes/forms/Datetime') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
