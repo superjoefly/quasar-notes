@@ -56,6 +56,7 @@ export default new VueRouter({
     { path: '/datetimerange', component: load('notes/forms/DatetimeRange') },
     { path: '/select', component: load('notes/forms/Select') },
     { path: '/dialog', component: load('notes/forms/DialogSelect') },
+    { path: '/rating', component: load('notes/forms/Rating') },
     // Collapsibles
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
