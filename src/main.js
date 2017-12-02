@@ -73,7 +73,8 @@ import Quasar, {
   QToggle,
   QDatetime,
   QItemSeparator,
-  QInlineDatetime
+  QInlineDatetime,
+  QDatetimeRange
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -132,7 +133,8 @@ Vue.use(Quasar, {
     QToggle,
     QDatetime,
     QItemSeparator,
-    QInlineDatetime
+    QInlineDatetime,
+    QDatetimeRange
   }
 }) // Install Quasar Framework
 
