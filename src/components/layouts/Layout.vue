@@ -220,6 +220,11 @@
               <q-item-main label="Inline Datetime" sublabel="Inline Datetime" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/datetimerange" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Datetime Range" sublabel="Datetime Range" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
