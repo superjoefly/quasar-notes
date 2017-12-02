@@ -230,6 +230,11 @@
               <q-item-main label="Select Menu" sublabel="Select Menu" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/dialog" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Dialog Select" sublabel="Dialog Select" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
