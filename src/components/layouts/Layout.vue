@@ -251,12 +251,19 @@
           </q-side-link>
         </q-collapsible>
 
-        <!-- Forms -->
+        <!-- Popups -->
         <q-collapsible indent icon="school" label="Popups" opened >
+
           <q-side-link item tag="a" to="/action" replace>
               <q-item-side icon="school" />
               <q-item-main label="Action Sheet" sublabel="Action Sheet" />
           </q-side-link>
+
+          <q-side-link item tag="a" to="/alert" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Alert" sublabel="Alert" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 

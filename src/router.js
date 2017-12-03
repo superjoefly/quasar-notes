@@ -61,6 +61,7 @@ export default new VueRouter({
     { path: '/uploader', component: load('notes/forms/Uploader') },
     // POPUPS NOTES
     { path: '/action', component: load('notes/popups/Action') },
+    { path: '/alert', component: load('notes/popups/Alert') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
