@@ -57,7 +57,8 @@ export default new VueRouter({
     { path: '/select', component: load('notes/forms/Select') },
     { path: '/dialog', component: load('notes/forms/DialogSelect') },
     { path: '/rating', component: load('notes/forms/Rating') },
-    // Collapsibles
+    { path: '/knob', component: load('notes/forms/Knob') },
+    // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
     { path: '/community/competitions/:name', component: load('community/competitions/Competition') },

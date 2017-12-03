@@ -240,6 +240,11 @@
               <q-item-main label="Rating" sublabel="Star Rating" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/knob" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Knob" sublabel="Knob Range" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
