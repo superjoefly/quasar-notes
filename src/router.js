@@ -38,7 +38,7 @@ export default new VueRouter({
     { path: '/scrolling', component: load('notes/Scrolling') },
     { path: '/infinitescroll', component: load('notes/InfiniteScroll') },
     { path: '/buttons', component: load('notes/Buttons') },
-    // Forms Notes
+    // FORMS NOTES
     { path: '/fields', component: load('notes/forms/Fields') },
     { path: '/inputs', component: load('notes/forms/Inputs') },
     { path: '/validation', component: load('notes/forms/Validation') },
@@ -58,6 +58,9 @@ export default new VueRouter({
     { path: '/dialog', component: load('notes/forms/DialogSelect') },
     { path: '/rating', component: load('notes/forms/Rating') },
     { path: '/knob', component: load('notes/forms/Knob') },
+    { path: '/uploader', component: load('notes/forms/Uploader') },
+    // POPUPS NOTES
+    { path: '/action', component: load('notes/popups/Action') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

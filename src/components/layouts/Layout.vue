@@ -149,7 +149,7 @@
 
 
         <!-- Forms -->
-        <q-collapsible indent icon="school" label="Forms" opened >
+        <q-collapsible indent icon="school" label="Forms">
           <q-side-link item tag="a" to="/fields" replace>
               <q-item-side icon="school" />
               <q-item-main label="Fields" sublabel="Form Fields" />
@@ -245,7 +245,18 @@
               <q-item-main label="Knob" sublabel="Knob Range" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/uploader" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Uploader" sublabel="Upload Files" />
+          </q-side-link>
+        </q-collapsible>
 
+        <!-- Forms -->
+        <q-collapsible indent icon="school" label="Popups" opened >
+          <q-side-link item tag="a" to="/action" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Action Sheet" sublabel="Action Sheet" />
+          </q-side-link>
         </q-collapsible>
       </q-list>
 

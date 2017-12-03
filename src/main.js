@@ -76,7 +76,8 @@ import Quasar, {
   QInlineDatetime,
   QDatetimeRange,
   QDialogSelect,
-  QRating
+  QRating,
+  QUploader
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -138,7 +139,8 @@ Vue.use(Quasar, {
     QInlineDatetime,
     QDatetimeRange,
     QDialogSelect,
-    QRating
+    QRating,
+    QUploader
   }
 }) // Install Quasar Framework
 
