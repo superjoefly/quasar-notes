@@ -264,6 +264,11 @@
               <q-item-main label="Alert" sublabel="Alert" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/toast" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Toast" sublabel="Toast" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 
