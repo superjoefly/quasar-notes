@@ -55,7 +55,7 @@ export default new VueRouter({
     { path: '/inlinedatetime', component: load('notes/forms/InlineDatetime') },
     { path: '/datetimerange', component: load('notes/forms/DatetimeRange') },
     { path: '/select', component: load('notes/forms/Select') },
-    { path: '/dialog', component: load('notes/forms/DialogSelect') },
+    { path: '/dialogSelect', component: load('notes/forms/DialogSelect') },
     { path: '/rating', component: load('notes/forms/Rating') },
     { path: '/knob', component: load('notes/forms/Knob') },
     { path: '/uploader', component: load('notes/forms/Uploader') },
@@ -63,6 +63,7 @@ export default new VueRouter({
     { path: '/action', component: load('notes/popups/Action') },
     { path: '/alert', component: load('notes/popups/Alert') },
     { path: '/toast', component: load('notes/popups/Toast') },
+    { path: '/dialog', component: load('notes/popups/Dialog') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

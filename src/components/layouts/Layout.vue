@@ -230,7 +230,7 @@
               <q-item-main label="Select Menu" sublabel="Select Menu" />
           </q-side-link>
 
-          <q-side-link item tag="a" to="/dialog" replace>
+          <q-side-link item tag="a" to="/dialogSelect" replace>
               <q-item-side icon="school" />
               <q-item-main label="Dialog Select" sublabel="Dialog Select" />
           </q-side-link>
@@ -267,6 +267,11 @@
           <q-side-link item tag="a" to="/toast" replace>
               <q-item-side icon="school" />
               <q-item-main label="Toast" sublabel="Toast" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/dialog" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Dialog" sublabel="Dialog" />
           </q-side-link>
 
         </q-collapsible>
