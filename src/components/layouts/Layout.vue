@@ -284,6 +284,11 @@
               <q-item-main label="Popover" sublabel="Popover" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/tooltip" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Tooltip" sublabel="Tooltip" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 
