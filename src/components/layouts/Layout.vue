@@ -279,6 +279,11 @@
               <q-item-main label="Modal" sublabel="Modal" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/popover" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Popover" sublabel="Popover" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 
