@@ -252,7 +252,7 @@
         </q-collapsible>
 
         <!-- Popups -->
-        <q-collapsible indent icon="school" label="Popups" opened >
+        <q-collapsible indent icon="school" label="Popups" >
 
           <q-side-link item tag="a" to="/action" replace>
               <q-item-side icon="school" />
@@ -287,6 +287,15 @@
           <q-side-link item tag="a" to="/tooltip" replace>
               <q-item-side icon="school" />
               <q-item-main label="Tooltip" sublabel="Tooltip" />
+          </q-side-link>
+        </q-collapsible>
+
+        <!-- GROUPS -->
+        <q-collapsible indent icon="school" label="Popups" opened >
+
+          <q-side-link item tag="a" to="/cards" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Cards" sublabel="Cards" />
           </q-side-link>
 
         </q-collapsible>

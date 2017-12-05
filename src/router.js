@@ -67,6 +67,8 @@ export default new VueRouter({
     { path: '/modal', component: load('notes/popups/Modal') },
     { path: '/popover', component: load('notes/popups/Popover') },
     { path: '/tooltip', component: load('notes/popups/Tooltip') },
+    // Groups
+    { path: '/cards', component: load('notes/groups/Cards') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
