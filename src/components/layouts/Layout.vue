@@ -274,6 +274,11 @@
               <q-item-main label="Dialog" sublabel="Dialog" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/modal" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Modal" sublabel="Modal" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 

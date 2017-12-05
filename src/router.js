@@ -64,6 +64,7 @@ export default new VueRouter({
     { path: '/alert', component: load('notes/popups/Alert') },
     { path: '/toast', component: load('notes/popups/Toast') },
     { path: '/dialog', component: load('notes/popups/Dialog') },
+    { path: '/modal', component: load('notes/popups/Modal') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
