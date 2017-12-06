@@ -298,6 +298,16 @@
               <q-item-main label="Cards" sublabel="Cards" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/collapsible" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Collapsible" sublabel="+ Accordion" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/datatable" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Data Table" sublabel="Data Table" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 

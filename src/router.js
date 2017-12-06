@@ -69,6 +69,8 @@ export default new VueRouter({
     { path: '/tooltip', component: load('notes/popups/Tooltip') },
     // Groups
     { path: '/cards', component: load('notes/groups/Cards') },
+    { path: '/collapsible', component: load('notes/groups/Collapsible') },
+    { path: '/datatable', component: load('notes/groups/DataTable') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
