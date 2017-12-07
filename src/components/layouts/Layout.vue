@@ -308,6 +308,11 @@
               <q-item-main label="Data Table" sublabel="Data Table" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/htmltables" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="HTML Tables" sublabel="HTML Tables" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 

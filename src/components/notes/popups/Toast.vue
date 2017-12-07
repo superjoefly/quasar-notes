@@ -86,9 +86,6 @@
       Multiple Toasts
     </q-btn>
 
-
-
-
   </div>
 </template>
 
