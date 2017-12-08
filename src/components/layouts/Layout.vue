@@ -291,7 +291,7 @@
         </q-collapsible>
 
         <!-- GROUPS -->
-        <q-collapsible indent icon="school" label="Popups" opened >
+        <q-collapsible indent icon="school" label="Groups" opened >
 
           <q-side-link item tag="a" to="/cards" replace>
               <q-item-side icon="school" />
@@ -311,6 +311,11 @@
           <q-side-link item tag="a" to="/htmltables" replace>
               <q-item-side icon="school" />
               <q-item-main label="HTML Tables" sublabel="HTML Tables" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/lists" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Lists" sublabel="and List Items" />
           </q-side-link>
 
         </q-collapsible>

@@ -72,6 +72,7 @@ export default new VueRouter({
     { path: '/collapsible', component: load('notes/groups/Collapsible') },
     { path: '/datatable', component: load('notes/groups/DataTable') },
     { path: '/htmltables', component: load('notes/groups/HtmlTables') },
+    { path: '/lists', component: load('notes/groups/Lists') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
