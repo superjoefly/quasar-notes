@@ -323,6 +323,11 @@
               <q-item-main label="Carousel" sublabel="using slides" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/stepper" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Stepper" sublabel="Progress Stepper" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 
