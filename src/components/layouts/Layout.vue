@@ -318,6 +318,11 @@
               <q-item-main label="Lists" sublabel="and List Items" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/carousel" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Carousel" sublabel="using slides" />
+          </q-side-link>
+
         </q-collapsible>
       </q-list>
 
