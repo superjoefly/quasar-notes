@@ -89,7 +89,6 @@
       QModal
     },
     data: () => ({
-      // slideClass: 'bg-primary'
       slideClass: 'bg-primary'
     }),
     methods: {
