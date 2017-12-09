@@ -16,12 +16,18 @@
       </div>
     </q-carousel>
 
+
+    <!-- Change Color With Each Slide -->
+
     <p class="caption">Arrows, Dots and Fullscreen Controls</p>
-    <q-carousel arrows dots fullscreen class="text-white">
-      <div slot="slide" class="bg-secondary" v-for="n in 12">
+    <q-carousel arrows dots fullscreen class="text-white" @slide="moveSlide">
+      <div slot="slide" :class="slideClass" v-for="n in 12">
         Slide {{n}}
       </div>
     </q-carousel>
+
+
+
 
     <p class="caption">Centered content, infinite scroll, with controls</p>
     <q-carousel infinite arrows dots class="text-white">
@@ -83,10 +89,33 @@
       QModal
     },
     data: () => ({
-
+      // slideClass: 'bg-primary'
+      slideClass: 'bg-primary'
     }),
     methods: {
-
+      // moveSlide (index, direction) {
+      //   if (index % 3 === 0) {
+      //     this.slideClass = 'bg-primary'
+      //   }
+      //   else if (index % 3 === 1) {
+      //     this.slideClass = 'bg-secondary'
+      //   }
+      //   else {
+      //     this.slideClass = 'bg-tertiary'
+      //   }
+      // }
+      moveSlide (index, direction) {
+        switch (index % 3) {
+          case 0:
+            this.slideClass = 'bg-primary'
+            break
+          case 1:
+            this.slideClass = 'bg-secondary'
+            break
+          default:
+            this.slideClass = 'bg-tertiary'
+        }
+      }
     },
     computed: {
 
