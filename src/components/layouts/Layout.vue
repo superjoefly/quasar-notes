@@ -291,7 +291,7 @@
         </q-collapsible>
 
         <!-- GROUPS -->
-        <q-collapsible indent icon="school" label="Groups" opened >
+        <q-collapsible indent icon="school" label="Groups" >
 
           <q-side-link item tag="a" to="/cards" replace>
               <q-item-side icon="school" />
@@ -327,6 +327,19 @@
               <q-item-side icon="school" />
               <q-item-main label="Stepper" sublabel="Progress Stepper" />
           </q-side-link>
+
+        </q-collapsible>
+
+
+
+        <!-- PROGRESS -->
+        <q-collapsible indent icon="school" label="Progress" opened >
+
+          <q-side-link item tag="a" to="/ajaxbar" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="AJAX Bar" sublabel="AJAX Loading Bar" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
