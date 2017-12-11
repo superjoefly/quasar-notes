@@ -77,6 +77,7 @@ export default new VueRouter({
     { path: '/stepper', component: load('notes/groups/Stepper') },
     // PROGRESS
     { path: '/ajaxbar', component: load('notes/progress/AjaxBar') },
+    { path: '/loading', component: load('notes/progress/Loading') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

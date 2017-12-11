@@ -340,6 +340,11 @@
               <q-item-main label="AJAX Bar" sublabel="AJAX Loading Bar" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/loading" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Loading" sublabel="Loading Spinner" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
