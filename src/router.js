@@ -78,6 +78,7 @@ export default new VueRouter({
     // PROGRESS
     { path: '/ajaxbar', component: load('notes/progress/AjaxBar') },
     { path: '/loading', component: load('notes/progress/Loading') },
+    { path: '/progressbar', component: load('notes/progress/ProgressBar') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
