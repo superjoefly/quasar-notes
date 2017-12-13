@@ -80,6 +80,8 @@ export default new VueRouter({
     { path: '/loading', component: load('notes/progress/Loading') },
     { path: '/progressbar', component: load('notes/progress/ProgressBar') },
     { path: '/spinner', component: load('notes/progress/Spinner') },
+    // ACTIONS
+    { path: '/panning', component: load('notes/actions/Panning') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

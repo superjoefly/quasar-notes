@@ -333,7 +333,7 @@
 
 
         <!-- PROGRESS -->
-        <q-collapsible indent icon="school" label="Progress" opened >
+        <q-collapsible indent icon="school" label="Progress" >
 
           <q-side-link item tag="a" to="/ajaxbar" replace>
               <q-item-side icon="school" />
@@ -354,9 +354,20 @@
               <q-item-side icon="school" />
               <q-item-main label="Spinners" sublabel="Progress Spinners" />
           </q-side-link>
+        </q-collapsible>
 
+
+
+        <!-- ACTIONS -->
+        <q-collapsible indent icon="school" label="Actions" opened >
+
+          <q-side-link item tag="a" to="/panning" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Panning" sublabel="Panning Actions" />
+          </q-side-link>
 
         </q-collapsible>
+
       </q-list>
 
 
