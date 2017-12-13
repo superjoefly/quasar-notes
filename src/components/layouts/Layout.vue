@@ -350,6 +350,11 @@
               <q-item-main label="Progress Bar" sublabel="QProgress" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/spinner" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Spinners" sublabel="Progress Spinners" />
+          </q-side-link>
+
 
         </q-collapsible>
       </q-list>
