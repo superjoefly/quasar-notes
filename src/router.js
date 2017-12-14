@@ -88,6 +88,8 @@ export default new VueRouter({
     { path: '/image-gallery', component: load('notes/media/ImageGallery') },
     { path: '/parallax', component: load('notes/media/Parallax') },
     { path: '/video', component: load('notes/media/Video') },
+    // Animations
+    { path: '/transitions', component: load('notes/animations/Transitions') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
