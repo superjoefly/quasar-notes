@@ -82,6 +82,8 @@ export default new VueRouter({
     { path: '/spinner', component: load('notes/progress/Spinner') },
     // ACTIONS
     { path: '/panning', component: load('notes/actions/Panning') },
+    { path: '/swiping', component: load('notes/actions/Swiping') },
+    { path: '/touch-hold', component: load('notes/actions/TouchHold') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

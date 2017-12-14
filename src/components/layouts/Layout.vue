@@ -366,6 +366,16 @@
               <q-item-main label="Panning" sublabel="Panning Actions" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="/swiping" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Swiping" sublabel="Touch Swipe Action" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/touch-hold" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Touch Hold" sublabel="Touch Hold Action" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>
