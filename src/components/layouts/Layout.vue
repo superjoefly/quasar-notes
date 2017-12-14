@@ -359,7 +359,7 @@
 
 
         <!-- ACTIONS -->
-        <q-collapsible indent icon="school" label="Actions" opened >
+        <q-collapsible indent icon="school" label="Actions" >
 
           <q-side-link item tag="a" to="/panning" replace>
               <q-item-side icon="school" />
@@ -374,6 +374,26 @@
           <q-side-link item tag="a" to="/touch-hold" replace>
               <q-item-side icon="school" />
               <q-item-main label="Touch Hold" sublabel="Touch Hold Action" />
+          </q-side-link>
+        </q-collapsible>
+
+
+        <!-- Media -->
+        <q-collapsible indent icon="school" label="Actions" opened >
+
+          <q-side-link item tag="a" to="/image-gallery" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Image Gallery" sublabel="Image Gallery" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/parallax" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Parallax" sublabel="Parallax Scrolling" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="/video" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Video" sublabel="Video Embedding" />
           </q-side-link>
 
         </q-collapsible>

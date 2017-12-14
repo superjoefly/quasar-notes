@@ -2,6 +2,8 @@
 .thumbs.db
 node_modules/
 dist/
+statics/
+assets/
 npm-debug.log*
 cordova/platforms
 cordova/plugins

@@ -84,6 +84,10 @@ export default new VueRouter({
     { path: '/panning', component: load('notes/actions/Panning') },
     { path: '/swiping', component: load('notes/actions/Swiping') },
     { path: '/touch-hold', component: load('notes/actions/TouchHold') },
+    // Media
+    { path: '/image-gallery', component: load('notes/media/ImageGallery') },
+    { path: '/parallax', component: load('notes/media/Parallax') },
+    { path: '/video', component: load('notes/media/Video') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
