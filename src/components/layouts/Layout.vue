@@ -424,7 +424,7 @@
 
 
         <!-- Others -->
-        <q-collapsible indent icon="school" label="Others" opened >
+        <q-collapsible indent icon="school" label="Others" >
 
           <q-side-link item tag="a" to="more-chips" replace>
               <q-item-side icon="school" />
@@ -439,6 +439,17 @@
           <q-side-link item tag="a" to="tree" replace>
               <q-item-side icon="school" />
               <q-item-main label="Tree" sublabel="Tree Component" />
+          </q-side-link>
+
+        </q-collapsible>
+
+
+        <!-- Utils -->
+        <q-collapsible indent icon="school" label="Utils" opened >
+
+          <q-side-link item tag="a" to="js-date" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="JS Date" sublabel="JS Date Utility" />
           </q-side-link>
 
         </q-collapsible>

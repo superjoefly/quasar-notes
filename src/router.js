@@ -93,10 +93,12 @@ export default new VueRouter({
     { path: '/slide-transition', component: load('notes/animations/SlideTransition') },
     { path: '/js-animations', component: load('notes/animations/JSAnimations') },
     { path: '/css-helpers', component: load('notes/animations/CssHelpers') },
-    // Other Components
+    // OHERS
     { path: '/more-chips', component: load('notes/more/MoreChips') },
     { path: '/chat', component: load('notes/more/Chat') },
     { path: '/tree', component: load('notes/more/Tree') },
+    // UTILS
+    { path: '/js-date', component: load('notes/utils/JSDate') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
