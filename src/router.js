@@ -93,6 +93,8 @@ export default new VueRouter({
     { path: '/slide-transition', component: load('notes/animations/SlideTransition') },
     { path: '/js-animations', component: load('notes/animations/JSAnimations') },
     { path: '/css-helpers', component: load('notes/animations/CssHelpers') },
+    // Other Components
+    { path: '/more-chips', component: load('notes/more/MoreChips') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

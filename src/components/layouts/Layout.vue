@@ -398,7 +398,7 @@
 
 
         <!-- Animation -->
-        <q-collapsible indent icon="school" label="Animations" opened >
+        <q-collapsible indent icon="school" label="Animations" >
 
           <q-side-link item tag="a" to="transitions" replace>
               <q-item-side icon="school" />
@@ -418,6 +418,17 @@
           <q-side-link item tag="a" to="css-helpers" replace>
               <q-item-side icon="school" />
               <q-item-main label="CSS Helpers" sublabel="Animation CSS Helpers" />
+          </q-side-link>
+
+        </q-collapsible>
+
+
+        <!-- Others -->
+        <q-collapsible indent icon="school" label="Others" opened >
+
+          <q-side-link item tag="a" to="more-chips" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="More Chips" sublabel="More Chips Examples" />
           </q-side-link>
 
         </q-collapsible>
