@@ -410,6 +410,11 @@
               <q-item-main label="Slide Transition" sublabel="Slides Component Up/Down" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="js-animations" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="JS Animations" sublabel="Creating Animations with JS" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>
