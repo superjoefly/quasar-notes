@@ -431,6 +431,16 @@
               <q-item-main label="More Chips" sublabel="More Chips Examples" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="chat" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Chat" sublabel="Chat Component" />
+          </q-side-link>
+
+          <q-side-link item tag="a" to="tree" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Tree" sublabel="Tree Component" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>

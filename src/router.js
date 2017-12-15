@@ -95,6 +95,8 @@ export default new VueRouter({
     { path: '/css-helpers', component: load('notes/animations/CssHelpers') },
     // Other Components
     { path: '/more-chips', component: load('notes/more/MoreChips') },
+    { path: '/chat', component: load('notes/more/Chat') },
+    { path: '/tree', component: load('notes/more/Tree') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
