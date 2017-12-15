@@ -405,6 +405,11 @@
               <q-item-main label="Transitions" sublabel="Transitional Animations" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="slide-transition" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Slide Transition" sublabel="Slides Component Up/Down" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>

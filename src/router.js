@@ -90,6 +90,7 @@ export default new VueRouter({
     { path: '/video', component: load('notes/media/Video') },
     // Animations
     { path: '/transitions', component: load('notes/animations/Transitions') },
+    { path: '/slide-transition', component: load('notes/animations/SlideTransition') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
