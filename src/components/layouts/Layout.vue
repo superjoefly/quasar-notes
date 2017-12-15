@@ -415,6 +415,11 @@
               <q-item-main label="JS Animations" sublabel="Creating Animations with JS" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="css-helpers" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="CSS Helpers" sublabel="Animation CSS Helpers" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>
