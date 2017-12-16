@@ -99,6 +99,7 @@ export default new VueRouter({
     { path: '/tree', component: load('notes/more/Tree') },
     // UTILS
     { path: '/js-date', component: load('notes/utils/JSDate') },
+    { path: '/dom', component: load('notes/utils/DOM') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

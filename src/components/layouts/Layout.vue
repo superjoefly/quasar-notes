@@ -452,6 +452,11 @@
               <q-item-main label="JS Date" sublabel="JS Date Utility" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="dom" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="DOM" sublabel="DOM Utils" />
+          </q-side-link>
+
         </q-collapsible>
 
       </q-list>
