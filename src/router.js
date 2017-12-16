@@ -100,6 +100,7 @@ export default new VueRouter({
     // UTILS
     { path: '/js-date', component: load('notes/utils/JSDate') },
     { path: '/dom', component: load('notes/utils/DOM') },
+    { path: '/formatter', component: load('notes/utils/Formatter') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },
