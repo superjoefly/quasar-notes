@@ -445,7 +445,7 @@
 
 
         <!-- Utils -->
-        <q-collapsible indent icon="school" label="Utils" opened >
+        <q-collapsible indent icon="school" label="Utils" >
 
           <q-side-link item tag="a" to="js-date" replace>
               <q-item-side icon="school" />
@@ -461,6 +461,23 @@
               <q-item-side icon="school" />
               <q-item-main label="Formatter" sublabel="Formatter Utils" />
           </q-side-link>
+
+          <q-side-link item tag="a" to="other-utils" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Other" sublabel="Other Utils" />
+          </q-side-link>
+
+        </q-collapsible>
+
+
+        <!-- Web API Wrappers -->
+        <q-collapsible indent icon="school" label="Web API" opened >
+
+          <q-side-link item tag="a" to="cookies" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Cookies" sublabel="Cookies" />
+          </q-side-link>
+
 
         </q-collapsible>
 
