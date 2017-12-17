@@ -478,6 +478,11 @@
               <q-item-main label="Cookies" sublabel="Cookies" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="web-storage" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="Web Storage" sublabel="Web Storage" />
+          </q-side-link>
+
 
         </q-collapsible>
 

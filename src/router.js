@@ -104,6 +104,7 @@ export default new VueRouter({
     { path: '/other-utils', component: load('notes/utils/OtherUtils') },
     // WEB API WRAPPERS
     { path: '/cookies', component: load('notes/webapi/Cookies') },
+    { path: '/web-storage', component: load('notes/webapi/WebStorage') },
     // COLLAPSIBLES
     { path: '/community/events', component: load('community/Events') },
     { path: '/community/gatherings', component: load('community/Gatherings') },

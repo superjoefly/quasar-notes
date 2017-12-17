@@ -3,7 +3,7 @@
     <p class="text-bold">DOM Utils</p>
 
     <p>Tree-Shaking</p>
-    <pre><code>
+    <pre><code class="language-js">
       import { dom } from 'quasar'
       const { offset } = dom
 

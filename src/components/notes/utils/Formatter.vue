@@ -2,7 +2,7 @@
   <div class="layout-padding">
     <p class="text-bold">Formatter Utils</p>
 
-    <pre style="overflow-x: auto"><code>
+    <pre><code class="language-js">
       import { format } from 'quasar'
       console.log(format)
       // Destructure
