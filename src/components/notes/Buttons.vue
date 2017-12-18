@@ -1,9 +1,5 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">Forms</p>
-
-    <br><br>
-    <hr><hr>
 
     <p class="text-bold">Buttons</p>
 

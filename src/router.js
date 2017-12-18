@@ -26,10 +26,9 @@ export default new VueRouter({
 
   routes: [
     { path: '/', component: load('layouts/Home') },
-    { path: '/about', component: load('layouts/About') },
-    { path: '/contact', component: load('layouts/Contact') },
+    { path: '/communication', component: load('layouts/Communication') },
+    { path: '/style', component: load('layouts/Style') },
     { path: '/platform', component: load('layouts/Platform') },
-    { path: '/start', component: load('notes/Start') },
     { path: '/flexbox', component: load('notes/Flexbox') },
     { path: '/css', component: load('notes/CSS') },
     { path: '/qlayout', component: load('notes/Qlayout') },
@@ -38,6 +37,10 @@ export default new VueRouter({
     { path: '/scrolling', component: load('notes/Scrolling') },
     { path: '/infinitescroll', component: load('notes/InfiniteScroll') },
     { path: '/buttons', component: load('notes/Buttons') },
+    // Pagination Routes
+    { path: '/1', component: load('layouts/Home') },
+    { path: '/2', component: load('layouts/Communication') },
+    { path: '/3', component: load('layouts/Style') },
     // FORMS NOTES
     { path: '/fields', component: load('notes/forms/Fields') },
     { path: '/inputs', component: load('notes/forms/Inputs') },

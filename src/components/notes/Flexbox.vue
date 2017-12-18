@@ -1,7 +1,7 @@
 <template>
   <div class="layout-padding">
     <div>
-      <p class="text-bold">Flexbox:</p>
+      <p class="text-bold">Flexbox: (view on desktop!)</p>
 
       <p class="text-bold">Row - With Wrap (Default)</p>
       <div class="row box">
@@ -11,6 +11,8 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+
+      <br>
 
       <p class="text-bold">Row with No-Wrap</p>
       <div class="row box no-wrap">
@@ -25,7 +27,7 @@
 
 
       <!-- Alignment -->
-      <p class="text-bold">Horizontal Alignment</p>
+      <p class="text-bold">Horizontal Alignment:</p>
       <p>Row with Justify-Start</p>
       <div class="row box justify-start">
         <div class="item">First Item</div>
@@ -34,6 +36,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Justify-End</p>
       <div class="row box justify-end">
         <div class="item">First Item</div>
@@ -42,6 +45,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+       <br>
       <p>Row with Justify-Center</p>
       <div class="row box justify-center">
         <div class="item">First Item</div>
@@ -50,6 +54,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Justify Between</p>
       <div class="row box justify-between">
         <div class="item">First Item</div>
@@ -58,6 +63,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Justify Around</p>
       <div class="row box justify-around">
         <div class="item">First Item</div>
@@ -71,7 +77,7 @@
       <hr>
 
 
-    >Vertical Alignment</p>
+    <p class="text-bold">Vertical Alignment:</p>
       <p>Row with Items-Start</p>
       <div class="row box items-start">
         <div class="item-vertical" style="height: 100px">First Item</div>
@@ -80,6 +86,7 @@
         <div class="item-vertical" style="height: 200px">Fourth Item</div>
         <div class="item-vertical" style="height: 100px">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Items-End</p>
       <div class="row box items-end">
         <div class="item-vertical" style="height: 100px">First Item</div>
@@ -88,6 +95,7 @@
         <div class="item-vertical" style="height: 200px">Fourth Item</div>
         <div class="item-vertical" style="height: 100px">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Items-Center</p>
       <div class="row box items-center">
         <div class="item-vertical" style="height: 100px">First Item</div>
@@ -96,6 +104,7 @@
         <div class="item-vertical" style="height: 200px">Fourth Item</div>
         <div class="item-vertical" style="height: 100px">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Items-Stretch</p>
       <div class="row box items-stretch">
         <div class="item-vertical" >First Item</div>
@@ -104,6 +113,7 @@
         <div class="item-vertical" >Fourth Item</div>
         <div class="item-vertical" >Fifth Item</div>
       </div>
+      <br>
       <p>Row with Items-Baseline</p>
       <div class="row box items-baseline">
         <div class="item-vertical" style="height: 100px">First Item</div>
@@ -119,7 +129,7 @@
 
 
 
-      <p class="text-bold">Align Flex Lines</p>
+      <p class="text-bold">Align Flex Lines:</p>
       <p>Row with Content-Start</p>
       <div class="row box content-start">
         <div class="item">First Item</div>
@@ -128,6 +138,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Content-End</p>
       <div class="row box content-end">
         <div class="item">First Item</div>
@@ -141,6 +152,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Content-Center</p>
       <div class="row box content-center">
         <div class="item">First Item</div>
@@ -154,6 +166,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Content-Stretch</p>
       <div class="row box content-stretch">
         <div class="item">First Item</div>
@@ -167,6 +180,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Content-Between</p>
       <div class="row box content-between">
         <div class="item">First Item</div>
@@ -180,6 +194,7 @@
         <div class="item">Fourth Item</div>
         <div class="item">Fifth Item</div>
       </div>
+      <br>
       <p>Row with Content-Around</p>
       <div class="row box content-around">
         <div class="item">First Item</div>
@@ -196,7 +211,7 @@
 
       <hr>
 
-      <p class="text-bold">Child Classes</p>
+      <p class="text-bold">Child Classes:</p>
 
       <p>Row with Columns</p>
       <div class="row box">
@@ -205,14 +220,14 @@
         <div class="border col-auto">col-auto</div>
         <div class="border col">remainder</div>
       </div>
-
+      <br>
       <p>Row with 3 Columns</p>
       <div class="row box">
         <div class="border col">col</div>
         <div class="border col">col</div>
         <div class="border col">col</div>
       </div>
-
+      <br>
       <p>Row with 3 different sized columns</p>
       <div class="row box">
         <div class="border col-3">col-3</div>
@@ -222,7 +237,7 @@
 
       <hr>
 
-      <p class="text-bold">Wrapping</p>
+      <p class="text-bold">Wrapping:</p>
 
       <p>Going over 12 points will result in wrap unless no-wrap is specified:</p>
 
@@ -235,7 +250,7 @@
 
       <hr>
 
-      <p class="text-bold">Self Alignment</p>
+      <p class="text-bold">Self Alignment:</p>
 
       <p>We can override alignment of parent by specifying alignment of individual items:</p>
 
@@ -250,7 +265,7 @@
 
       <hr>
 
-      <p class="text-bold">Order Items</p>
+      <p class="text-bold">Order Items:</p>
 
       <div class="row box">
         <div class="item" style="order: 2">style = item order: 2</div>
@@ -261,7 +276,7 @@
 
       <hr>
 
-      <p class="text-bold">Responsive Design</p>
+      <p class="text-bold">Responsive Design:</p>
 
       <div class="row box">
         <div class="item col-xs-12 col-sm-3 col-md-4" style="margin: 0px; border: 1px solid black">
@@ -274,13 +289,15 @@
           col-xs-12 col-sm-3 col-md-4
         </div>
       </div>
-
+      <br>
       <p>Using more than 12 points will wrap:</p>
 
       <div class="row box">
         <div class="item col-8">col-8</div>
         <div class="item col-8">col-8</div>
       </div>
+
+      <hr>
 
       <p class="text-bold">Gutters</p>
 
@@ -351,8 +368,6 @@ export default {
 </script>
 <style lang="stylus" scoped>
   @import '~variables'
-  .text-bold
-    font-size 25px
 
   .box
     width 100%

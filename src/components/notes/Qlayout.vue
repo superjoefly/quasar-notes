@@ -14,7 +14,7 @@
       <!-- Not On QLayout -->
 
       <!-- Non-Expandable -->
-      <q-btn round color="red" @click="alertTime" class="fixed" style="top: 150px; right: 18px">
+      <q-btn round color="red" @click="alertTime" class="fixed" style="top: 200px; right: 18px">
         <q-icon name="alarm"></q-icon>
       </q-btn>
 
@@ -45,7 +45,7 @@
         </q-fab>
       </q-fixed-position> -->
 
-      <hr>
+      <hr style="margin-top: 125px;">
 
       <p class="text-bold">Toggle Through V-Model</p>
 

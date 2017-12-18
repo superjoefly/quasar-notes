@@ -10,9 +10,9 @@
     <!-- Header -->
     <q-toolbar slot="header" color="blue-10" >
       <!-- Left Button -->
-      <!-- <q-btn flat class="lt-lg" @click="$refs.layout.toggleLeft()">
+      <q-btn flat class="lt-lg" @click="$refs.layout.toggleLeft()">
         <q-icon name="menu" style="font-size: 30px;"></q-icon>
-      </q-btn> -->
+      </q-btn>
 
       <!-- Title -->
       <q-toolbar-title>
@@ -45,13 +45,13 @@
     <q-tabs slot="navigation">
       <q-route-tab slot="title" icon="view_quilt" to="/" replace hide="icon" label="Home" />
 
-      <q-route-tab slot="title" icon="view_day" to="/about" replace hide="icon" label="About" />
+      <q-route-tab slot="title" icon="view_day" to="/communication" replace hide="icon" label="Communication" />
 
-      <q-route-tab slot="title" icon="view_day" to="/contact" replace label="Contact" />
+      <q-route-tab slot="title" icon="view_day" to="/style" replace label="Style" />
 
       <q-route-tab slot="title" icon="input" to="/platform" replace label="Platform" />
 
-      <q-route-tab icon="mail" to="/mail" replace slot="title" label="Mail"
+      <q-route-tab icon="mail" to="/mail" replace slot="title" label="404"
       />
     </q-tabs>
 
@@ -60,7 +60,7 @@
 
 
     <!-- Left Side Panel -->
-    <!-- <div slot="left">
+    <div slot="left">
       <q-list no-border link inset-delimiter>
         <q-list-header>Essential Links
           <q-btn flat @click="$refs.layout.hideLeft()">
@@ -85,7 +85,7 @@
           <q-item-main label="Twitter" sublabel="@quasarframework" />
         </q-item>
       </q-list>
-    </div> -->
+    </div>
 
 
 
@@ -101,11 +101,6 @@
             <q-icon name="close" ></q-icon>
           </q-btn>
         </q-list-header>
-
-        <q-side-link item tag="a" to="/start" replace>
-            <q-item-side icon="school" />
-            <q-item-main label="Start" sublabel="EventBus and Vuex" />
-        </q-side-link>
 
         <q-side-link item tag="a" to="/flexbox" replace>
             <q-item-side icon="school" />

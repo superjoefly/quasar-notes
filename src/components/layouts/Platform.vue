@@ -15,14 +15,14 @@
     <pre><code class="language-js">
       data: () => ({
         myPlatform: [
-          { label: 'is-chrome', value: Platform.is.chrome },
-          { label: 'version', value: Platform.is.version },
-          { label: 'versionNumber', value: Platform.is.versionNumber },
-          { label: 'is-linux', value: Platform.is.linux },
-          { label: 'is-desktop', value: Platform.is.desktop },
-          { label: 'is-webkit', value: Platform.is.webkit },
-          { label: 'name', value: Platform.is.name },
-          { label: 'platform', value: Platform.is.platform }
+          { label: 'is.chrome', value: Platform.is.chrome },
+          { label: 'is.version', value: Platform.is.version },
+          { label: 'is.versionNumber', value: Platform.is.versionNumber },
+          { label: 'is.linux', value: Platform.is.linux },
+          { label: 'is.desktop', value: Platform.is.desktop },
+          { label: 'is.webkit', value: Platform.is.webkit },
+          { label: 'is.name', value: Platform.is.name },
+          { label: 'is.platform', value: Platform.is.platform }
         ]
       })
     </code></pre>
@@ -40,14 +40,14 @@ export default {
   },
   data: () => ({
     myPlatform: [
-      { label: 'is-chrome', value: Platform.is.chrome },
-      { label: 'version', value: Platform.is.version },
-      { label: 'versionNumber', value: Platform.is.versionNumber },
-      { label: 'is-linux', value: Platform.is.linux },
-      { label: 'is-desktop', value: Platform.is.desktop },
-      { label: 'is-webkit', value: Platform.is.webkit },
-      { label: 'name', value: Platform.is.name },
-      { label: 'platform', value: Platform.is.platform }
+      { label: 'is.chrome', value: Platform.is.chrome },
+      { label: 'is.version', value: Platform.is.version },
+      { label: 'is.versionNumber', value: Platform.is.versionNumber },
+      { label: 'is.linux', value: Platform.is.linux },
+      { label: 'is.desktop', value: Platform.is.desktop },
+      { label: 'is.webkit', value: Platform.is.webkit },
+      { label: 'is.name', value: Platform.is.name },
+      { label: 'is.platform', value: Platform.is.platform }
     ]
   })
 }

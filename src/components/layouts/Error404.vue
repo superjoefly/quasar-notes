@@ -1,5 +1,5 @@
 <template>
-  <div class="error-page window-height window-width bg-light column items-center no-wrap">
+  <div class="error-page window-height bg-light column items-center no-wrap">
     <div class="error-code bg-primary flex items-center content-center justify-center">
       404
     </div>
@@ -58,10 +58,10 @@ export default {
     height 50vh
     width 100%
     padding-top 15vh
-    @media (orientation: landscape) { 
+    @media (orientation: landscape) {
       font-size 30vw
     }
-    @media (orientation: portrait) { 
+    @media (orientation: portrait) {
       font-size 30vh
     }
     color rgba(255, 255, 255, .2)

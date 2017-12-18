@@ -1,6 +1,6 @@
 <template>
   <div>
-    <q-btn class="text-primary" @click="increase">Click Me!</q-btn>
+    <q-btn class="text-primary" @click="increase" style="margin-bottom: 10px;">Click Me!</q-btn>
   </div>
 </template>
 <script>

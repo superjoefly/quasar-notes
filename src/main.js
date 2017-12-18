@@ -10,6 +10,7 @@ require(`./themes/app.${__THEME}.styl`)
 // require(`quasar/dist/quasar.ie`)
 // require(`quasar/dist/quasar.ie.${__THEME}.css`)
 
+// Import Vuejs
 import Vue from 'vue'
 
 // npm install vue-scroll
@@ -19,130 +20,12 @@ Vue.use(vuescroll)
 import Vuelidate from 'vuelidate'
 Vue.use(Vuelidate)
 
-// Global Import of Directives and Components and Event Bus
-import Quasar, {
-  Ripple,
-  QBtn,
-  QIcon,
-  QLayout,
-  QList,
-  QListHeader,
-  QItem,
-  QItemSide,
-  QItemMain,
-  QToolbar,
-  QToolbarTitle,
-  QTabs,
-  QTab,
-  QTabPane,
-  QRouteTab,
-  QTooltip,
-  QCheckbox,
-  QInput,
-  QScrollArea,
-  QSideLink,
-  QSearch,
-  QFixedPosition,
-  QFab,
-  QFabAction,
-  QResizeObservable,
-  QWindowResizeObservable,
-  QSelect,
-  QPullToRefresh,
-  QItemTile,
-  QCollapsible,
-  QContextMenu,
-  QPagination,
-  QScrollObservable,
-  QInfiniteScroll,
-  QSpinnerDots,
-  QChip,
-  QSpinnerOval,
-  QSpinnerAudio,
-  QSpinnerGears,
-  QSpinnerHourglass,
-  QSpinnerGrid,
-  QField,
-  QChipsInput,
-  QKnob,
-  QOptionGroup,
-  QAutocomplete,
-  QSlider,
-  QRange,
-  QRadio,
-  QToggle,
-  QDatetime,
-  QItemSeparator,
-  QInlineDatetime,
-  QDatetimeRange,
-  QDialogSelect,
-  QRating,
-  QUploader
-} from 'quasar'
-
+// Import All Directives and Components (for Testing only)
+import Quasar, * as All from 'quasar'
 Vue.use(Quasar, {
-  directives: {
-    Ripple
-  },
-  components: {
-    QBtn,
-    QIcon,
-    QLayout,
-    QList,
-    QListHeader,
-    QItem,
-    QItemSide,
-    QItemMain,
-    QToolbar,
-    QToolbarTitle,
-    QTabs,
-    QTab,
-    QTabPane,
-    QRouteTab,
-    QTooltip,
-    QCheckbox,
-    QInput,
-    QScrollArea,
-    QSideLink,
-    QSearch,
-    QFixedPosition,
-    QFab,
-    QFabAction,
-    QResizeObservable,
-    QWindowResizeObservable,
-    QSelect,
-    QPullToRefresh,
-    QItemTile,
-    QCollapsible,
-    QContextMenu,
-    QPagination,
-    QScrollObservable,
-    QInfiniteScroll,
-    QSpinnerDots,
-    QChip,
-    QSpinnerOval,
-    QSpinnerAudio,
-    QSpinnerGears,
-    QSpinnerHourglass,
-    QSpinnerGrid,
-    QField,
-    QChipsInput,
-    QKnob,
-    QOptionGroup,
-    QAutocomplete,
-    QSlider,
-    QRange,
-    QRadio,
-    QToggle,
-    QDatetime,
-    QItemSeparator,
-    QInlineDatetime,
-    QDatetimeRange,
-    QDialogSelect,
-    QRating,
-    QUploader
-  }
-}) // Install Quasar Framework
+  components: All,
+  directives: All
+})
 
 // Vuejs Event Bus
 export const EventBus = new Vue()
@@ -153,14 +36,17 @@ import router from './router'
 // Vuex Store
 import { store } from './store'
 
+// Toggle Production Tip
 Vue.config.productionTip = false
-Vue.use(Quasar) // Install Quasar Framework
+
+// Install Quasar Framework
+Vue.use(Quasar)
 
 if (__THEME === 'mat') {
   require('quasar-extras/roboto-font')
 }
 import 'quasar-extras/material-icons'
-// import 'quasar-extras/ionicons'
+import 'quasar-extras/ionicons'
 import 'quasar-extras/fontawesome'
 import 'quasar-extras/animate'
 

@@ -4,11 +4,13 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export const store = new Vuex.Store({
+  // State
   state: {
     name: 'Joey',
     age: 37
   },
 
+  // Functions that return state
   getters: {
     name: state => {
       return state.name
@@ -18,12 +20,14 @@ export const store = new Vuex.Store({
     }
   },
 
+  // Mutate State
   mutations: {
     toCaps: (state) => {
       state.name = state.name.toUpperCase()
     }
   },
 
+  // Commit Mutations
   actions: {
     toCaps: ({ commit }) => {
       commit('toCaps')

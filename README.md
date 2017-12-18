@@ -1,6 +1,6 @@
 # Quasar App
 
-> Notes for Quasar Framework
+> A collection of notes and examples created while learning Quasar Framework ^0.14.4
 
 ## Build Setup
 

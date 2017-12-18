@@ -1,7 +1,7 @@
 <template>
 
-    <div>
-      <p class="text-bold">TollBar(inverted)</p>
+    <div class="layout-padding">
+      <p class="text-bold">ToolBar (inverted)</p>
 
       <q-toolbar color="red" inverted>
         <q-toolbar-title>Title
@@ -105,7 +105,7 @@
 
     <p class="text-bold">Window History</p>
 
-    <p>To avoid building up a window history, which can alter navigation of phones, use the 'replace' property when routing: <b>:to="..." replace</b></p>
+    <p>To avoid building up a window history, which can alter navigation on phones, use the 'replace' property when routing: <b>:to="..." replace</b></p>
 
     <hr><hr>
 
@@ -130,20 +130,20 @@
 
     <p class="text-bold">Breadcrumbs (bottom-right)</p>
 
-    <q-fixed-position corner="bottom-right" :offset="[0, 0]">
+    <q-fixed-position corner="bottom-right" :offset="[0, 0]" class="outline">
       <ul class="breadcrumb">
         <li>
-          <router-link to="/" replace >
+          <router-link to="#" replace >
             <q-icon name="home" /> Home
           </router-link>
         </li>
         <li>
-          <router-link to="/about" replace>
+          <router-link to="#" replace>
             <q-icon name="mail" /> About
           </router-link>
         </li>
         <li>
-          <router-link to="/contact" replace>
+          <router-link to="#" replace>
             <q-icon name="cloud" /> Contact
           </router-link>
         </li>
@@ -159,6 +159,7 @@
 
     <!-- Using page number as path -->
     <!-- Requires setting up appropriate routes -->
+    <p class="caption">Use browser back button to return to this page...</p>
     <q-pagination v-model="page" :max="3" @change="$router.push(`${page}`)"></q-pagination>
 
     </div>
@@ -184,6 +185,7 @@ export default {
         {label: 'Tab 2', value: 'xtab-2'},
         {label: 'Tab 3', value: 'xtab-3'}
       ],
+      // See router...
       page: 1
     }
   },
@@ -204,4 +206,11 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
+    @import '~variables'
+    .outline
+        border-top 1px solid lime
+        border-left 1px solid lime
+        padding-left 10px
+        background-color $grey-5
+        color white
 </style>
