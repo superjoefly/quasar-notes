@@ -28,7 +28,7 @@ export default new VueRouter({
     { path: '/', component: load('layouts/Home') },
     { path: '/about', component: load('layouts/About') },
     { path: '/contact', component: load('layouts/Contact') },
-    { path: '/more', component: load('layouts/More') },
+    { path: '/platform', component: load('layouts/Platform') },
     { path: '/start', component: load('notes/Start') },
     { path: '/flexbox', component: load('notes/Flexbox') },
     { path: '/css', component: load('notes/CSS') },

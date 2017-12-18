@@ -2,7 +2,7 @@
   <div class="layout-padding">
     <p class="text-bold">Web Storage</p>
 
-    <pre><code class="language-javascript">
+    <pre><code class="language-js">
       import { LocalStorage, SessionStorage } from 'quasar'
 
       // Setting Data

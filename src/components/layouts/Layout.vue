@@ -49,7 +49,7 @@
 
       <q-route-tab slot="title" icon="view_day" to="/contact" replace label="Contact" />
 
-      <q-route-tab slot="title" icon="input" to="/more" replace label="More" />
+      <q-route-tab slot="title" icon="input" to="/platform" replace label="Platform" />
 
       <q-route-tab icon="mail" to="/mail" replace slot="title" label="Mail"
       />
