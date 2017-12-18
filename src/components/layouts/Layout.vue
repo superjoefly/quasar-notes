@@ -483,6 +483,11 @@
               <q-item-main label="Web Storage" sublabel="Web Storage" />
           </q-side-link>
 
+          <q-side-link item tag="a" to="app-visibility" replace>
+              <q-item-side icon="school" />
+              <q-item-main label="App Visibility" sublabel="App Visibility" />
+          </q-side-link>
+
 
         </q-collapsible>
 
