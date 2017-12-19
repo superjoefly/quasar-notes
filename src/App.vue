@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import Layout from './components/layouts/Layout'
-export default {
-  components: {
-    'app-layout': Layout
+  import Layout from './components/layouts/Layout'
+  export default {
+    components: {
+      'app-layout': Layout
+    }
   }
-}
 </script>
 
 <style></style>

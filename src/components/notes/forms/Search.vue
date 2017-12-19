@@ -105,13 +105,28 @@
 
     <p>Search within QLayout</p>
 
-    <q-layout>
-      ...content
+    <!-- Header -->
+    <q-toolbar slot="header" color="blue-10" >
+      <!-- Left Button -->
+      <q-btn flat class="lt-lg" @click="$refs.layout.toggleLeft()">
+        <q-icon name="menu" style="font-size: 30px;"></q-icon>
+      </q-btn>
 
-      <q-toolbar slot="header" color="primary">
-        <q-search inverted color="nont" v-model="search" />
-      </q-toolbar>
-    </q-layout>
+      <!-- Title -->
+      <q-toolbar-title>
+        Learning Quasar
+        <!-- Subtitle -->
+        <span slot="subtitle">Subtitle</span>
+      </q-toolbar-title>
+
+      <!-- Search Bar -->
+      <q-search v-model="search" inverted class="gt-sm" />
+
+      <!-- Right Button -->
+      <q-btn flat class="pull-right" @click="$refs.layout.toggleRight()">
+        <q-icon name="menu" style="font-size: 30px;"></q-icon>
+      </q-btn>
+    </q-toolbar>
 
   </div>
 </template>

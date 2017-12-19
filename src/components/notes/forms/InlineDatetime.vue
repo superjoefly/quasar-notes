@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-padding">
+  <div class="layout-padding" style="width: 500px; max-width: 90vw; margin: auto;">
     <p class="text-bold">Inline Datetime</p>
     <p>Date:</p>
     <q-inline-datetime v-model="date1" type="date" />

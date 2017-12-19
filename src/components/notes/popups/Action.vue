@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-padding">
+  <div class="layout-padding column" style="align-items: center">
     <p class="text-bold">Action Sheet</p>
 
     <q-list style="max-width: 600px">

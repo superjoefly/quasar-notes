@@ -492,7 +492,7 @@
 
 
       <!-- Collapsibles -->
-      <q-collapsible indent icon="event" label="Event" opened>
+      <q-collapsible indent icon="event" label="Event">
 
         <q-side-link item to="/community/events" replace>
           <q-item-side>

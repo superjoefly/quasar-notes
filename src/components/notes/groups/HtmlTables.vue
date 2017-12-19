@@ -1,7 +1,7 @@
 <template>
   <div class="layout-padding row justify-center">
-    <p class="text-bold">HTML Tables</p>
     <div style="width: 500px; max-width: 90vw">
+      <p class="text-bold">HTML Tables</p>
       <q-card>
         <q-card-title>Configure</q-card-title>
         <q-card-separator />

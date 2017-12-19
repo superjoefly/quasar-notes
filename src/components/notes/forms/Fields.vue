@@ -1,8 +1,8 @@
 <template>
   <div class="layout-padding">
 
-    <p>Email Example:</p>
     <p class="text-bold">Form Fields</p>
+    <p>Email Example:</p>
     <q-field icon="cloud" label="Gmail Address" helper="Please enter your Gmail address" :error="mailHasError" error-label="Please enter a valid email address" :count="10">
       <q-input suffix="@gmail.com" v-model="email"></q-input>
     </q-field>
