@@ -29,8 +29,8 @@
     </ul>
 
     <p class="caption">Import Stylus Variables:</p>
-    <pre style="overflow: auto" class="language-js">
-      <code>
+    <pre style="overflow: auto">
+      <code class="language-js">
         &lt;style lang="stylus" scoped&gt;<br />
           @import '~variables'<br />
           .text-bold<br />
