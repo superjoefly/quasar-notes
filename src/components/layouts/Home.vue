@@ -2,7 +2,7 @@
   <div>
     <!-- Layout Padding required to avoid vertical scrollbar -->
     <div class="layout-padding">
-      <p>Home</p>
+      <p>Intro</p>
 
       <hr><hr>
       <br><br>
