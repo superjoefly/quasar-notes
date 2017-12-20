@@ -22,7 +22,7 @@
 
     <p class="text-bold">Example using q-scroll-area</p>
 
-    <q-scroll-area style="width: 500px; height: 500px; padding: 10px" class="bg-yellow">
+    <q-scroll-area style="width: 300px; height: 500px; padding: 10px" class="bg-yellow">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius cumque repellat in cum incidunt nihil, explicabo ipsa dignissimos porro perferendis? Reprehenderit quis explicabo eaque consequuntur porro voluptatum, cumque aspernatur.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius cumque repellat in cum incidunt nihil, explicabo ipsa dignissimos porro perferendis? Reprehenderit quis explicabo eaque consequuntur porro voluptatum, cumque aspernatur.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eius cumque repellat in cum incidunt nihil, explicabo ipsa dignissimos porro perferendis? Reprehenderit quis explicabo eaque consequuntur porro voluptatum, cumque aspernatur.</p>
@@ -43,7 +43,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi recusandae ipsa quam repellat voluptates sint sapiente, doloribus aspernatur cupiditate autem! Nulla ipsum eligendi sit consequatur consequuntur magni cum dolorum sed.</p>
     </div>
 
-    <div class="bg-teal text-white fixed" style="height: 100px; width: 100px; bottom: 75px; right: 25px;" v-if="isShown">Hello!</div>
+    <div class="bg-teal text-white fixed" style="height: 100px; width: 100px; bottom: 75px; right: 25px; z-index: 1" v-if="isShown">Hello!</div>
 
     <br><br>
     <hr><hr>
@@ -55,7 +55,7 @@
 
     <p class="text-bold">Scroll Area</p>
 
-    <q-scroll-area style="width: 400px; height: 300px;"
+    <q-scroll-area style="width: 300px; height: 300px;"
       :thumb-style="{
         right: '4px',
         borderRadius: '5px',
@@ -75,7 +75,7 @@
 
     <p class="text-bold">Scroll Fire</p>
 
-    <q-scroll-area style="width: 400px; height: 500px;" class="bg-purple-1">
+    <q-scroll-area style="width: 300px; height: 500px;" class="bg-purple-1">
       <div class="layout-padding">
         <p class="caption">
           Scroll Down to see the Bounce Effect when target comes into view...
