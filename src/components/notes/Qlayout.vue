@@ -89,25 +89,27 @@
       <br>
       <br>
 
-      <hr>
+      <div class="desktop-only">
+        <hr>
+        
+        <p class="text-bold">Element Resize Observable</p>
+        <p>Resize div to see result in console.</p>
 
-      <p class="text-bold">Element Resize Observable</p>
-      <p>Resize div to see result in console.</p>
+        <div style="height: 100px; width: 100px; border: 1px solid blue; resize: both; overflow: auto">
+          <!-- <q-resize-observable @resize="onResize">
+            test
+          </q-resize-observable> -->
+        </div>
 
-      <div style="height: 100px; width: 100px; border: 1px solid blue; resize: both; overflow: auto">
-        <!-- <q-resize-observable @resize="onResize">
-          test
-        </q-resize-observable> -->
+        <hr>
+
+        <p class="text-bold">Window Resize Observable</p>
+        <p>Resize the browser window to see result in console.</p>
+
+          <!-- <q-window-resize-observable @resize="onResize">
+            test
+          </q-window-resize-observable> -->
       </div>
-
-      <hr>
-
-      <p class="text-bold">Window Resize Observable</p>
-      <p>Resize the browser window to see result in console.</p>
-
-        <!-- <q-window-resize-observable @resize="onResize">
-          test
-        </q-window-resize-observable> -->
 
 
     </div>

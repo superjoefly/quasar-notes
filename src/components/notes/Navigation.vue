@@ -160,7 +160,7 @@
     <!-- Using page number as path -->
     <!-- Requires setting up appropriate routes -->
     <p class="caption">Use browser back button to return to this page...</p>
-    <q-pagination v-model="page" :max="3" @change="$router.push(`${page}`)"></q-pagination>
+    <q-pagination v-model="page" :max="3" @change="$router.push(`${page}`)" style="margin-bottom: 50px;" />
 
     </div>
 </template>
