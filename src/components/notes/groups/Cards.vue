@@ -157,7 +157,7 @@
     <hr><hr>
     <br><br>
 
-    <p>Test</p>
+    <p>Bottom Overlay with Title and Subtitle</p>
     <q-card inline>
       <q-card-media>
         <img src="~assets/quasar-logo-full.svg" style="height: 300px; width: 300px;">
@@ -255,7 +255,7 @@
     <hr><hr>
     <br><br>
 
-    <p>Test</p>
+    <p>With Sublabel</p>
     <q-card inline>
       <q-item>
         <q-item-side :avatar="image" />
@@ -391,7 +391,7 @@
     <hr><hr>
     <br><br>
 
-    <p>Test</p>
+    <p>Rating</p>
     <q-card inline>
       <q-card-media>
         <img src="~assets/linux-avatar.png">
