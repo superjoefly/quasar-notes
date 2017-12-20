@@ -8,9 +8,9 @@
 
 
     <!-- Header -->
-    <q-toolbar slot="header" color="blue-10" >
+    <q-toolbar slot="header" color="blue-10">
       <!-- Left Button -->
-      <q-btn flat class="lt-lg" @click="$refs.layout.toggleLeft()">
+      <q-btn flat @click="$refs.layout.toggleLeft()" class="gt-sm">
         <q-icon name="menu" style="font-size: 30px;"></q-icon>
       </q-btn>
 
