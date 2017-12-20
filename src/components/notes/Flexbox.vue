@@ -80,29 +80,29 @@
     <p class="text-bold">Vertical Alignment:</p>
       <p>Row with Items-Start</p>
       <div class="row box items-start">
-        <div class="item-vertical" style="height: 100px">First Item</div>
-        <div class="item-vertical" style="height: 250px">Second Item</div>
+        <div class="item-vertical" style="height: 50px">First Item</div>
+        <div class="item-vertical" style="height: 100px">Second Item</div>
         <div class="item-vertical"style="height: 50px">Third Item</div>
-        <div class="item-vertical" style="height: 200px">Fourth Item</div>
-        <div class="item-vertical" style="height: 100px">Fifth Item</div>
+        <div class="item-vertical" style="height: 100px">Fourth Item</div>
+        <div class="item-vertical" style="height: 50px">Fifth Item</div>
       </div>
       <br>
       <p>Row with Items-End</p>
       <div class="row box items-end">
-        <div class="item-vertical" style="height: 100px">First Item</div>
-        <div class="item-vertical" style="height: 250px">Second Item</div>
+        <div class="item-vertical" style="height: 50px">First Item</div>
+        <div class="item-vertical" style="height: 100px">Second Item</div>
         <div class="item-vertical"style="height: 50px">Third Item</div>
-        <div class="item-vertical" style="height: 200px">Fourth Item</div>
-        <div class="item-vertical" style="height: 100px">Fifth Item</div>
+        <div class="item-vertical" style="height: 100px">Fourth Item</div>
+        <div class="item-vertical" style="height: 50px">Fifth Item</div>
       </div>
       <br>
       <p>Row with Items-Center</p>
       <div class="row box items-center">
-        <div class="item-vertical" style="height: 100px">First Item</div>
-        <div class="item-vertical" style="height: 250px">Second Item</div>
+        <div class="item-vertical" style="height: 50px">First Item</div>
+        <div class="item-vertical" style="height: 100px">Second Item</div>
         <div class="item-vertical"style="height: 50px">Third Item</div>
-        <div class="item-vertical" style="height: 200px">Fourth Item</div>
-        <div class="item-vertical" style="height: 100px">Fifth Item</div>
+        <div class="item-vertical" style="height: 100px">Fourth Item</div>
+        <div class="item-vertical" style="height: 50px">Fifth Item</div>
       </div>
       <br>
       <p>Row with Items-Stretch</p>
@@ -116,11 +116,11 @@
       <br>
       <p>Row with Items-Baseline</p>
       <div class="row box items-baseline">
-        <div class="item-vertical" style="height: 100px">First Item</div>
-        <div class="item-vertical" style="height: 250px">Second Item</div>
+        <div class="item-vertical" style="height: 50px">First Item</div>
+        <div class="item-vertical" style="height: 100px">Second Item</div>
         <div class="item-vertical"style="height: 50px">Third Item</div>
-        <div class="item-vertical" style="height: 200px">Fourth Item</div>
-        <div class="item-vertical" style="height: 100px">Fifth Item</div>
+        <div class="item-vertical" style="height: 100px">Fourth Item</div>
+        <div class="item-vertical" style="height: 50px">Fifth Item</div>
       </div>
 
 
@@ -373,6 +373,9 @@ export default {
     width 100%
     height 300px
     border 2px solid green
+
+    @media all and (max-width: 400px)
+      height 500px
 
 
   .item
