@@ -1,6 +1,6 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">Touch Hold</p>
+    <p class="text-bold">Touch Hold (touch and hold for toast!)</p>
 
     <p class="caption">Optional Modifiers: .nomouse</p>
 
