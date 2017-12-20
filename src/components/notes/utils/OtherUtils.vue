@@ -2,9 +2,12 @@
   <div class="layout-padding">
     <p class="text-bold">Other Utils</p>
 
-    <p class="caption">Open External URL</p>
+    <p class="caption">Open External URL:</p>
     <q-btn flat color="orange" @click="goToGoogle">Go To Google</q-btn>
 
+    <hr><hr>
+
+    <p class="caption">Divs Added for Scrolling:</p>
     <div>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ratione nobis autem adipisci doloribus excepturi unde tempore dolorem porro, itaque eveniet officia ducimus dignissimos commodi doloremque explicabo accusamus, harum culpa.
     </div>
@@ -18,12 +21,14 @@
     <hr><hr>
     <br><br>
 
+    <p class="caption">Be sure to view code and results in console...</p>
+
     <div style="height: 100px; width: 100px; background-color: purple" id="myDiv"></div>
   </div>
 </template>
 
 <script>
-  /*eslint-disable*/
+  /*eslint-disable*/ // Disable Eslint
   import { openURL, debounce, frameDebounce, throttle, extend, uid, event, colors, filter } from 'quasar'
 
   // DEBOUNCE - function only called after a specific amount of time has passed
@@ -127,7 +132,7 @@
         // Returns boolean
         console.log(event.rightClick(evt)) // false
         // Returns position of event
-        console.log(event.position(evt)) // {top: 288, left: 54}
+        console.log(event.position(evt)) // ex: {top: 288, left: 54}
         // Returns target-element
         console.log(event.targetElement(evt))
       })
