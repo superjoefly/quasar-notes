@@ -9,6 +9,8 @@
 
       <p>This is a Collection of Examples created while learning the Quasar-Framework ^0.14.4. Use the right side-panel to access links to the various examples...in most cases, you will need to view the code to see how it was done...cheers!</p>
 
+      <p class="caption">Note: it's best to view these examples on a desktop if possible :-)</p>
+
     </div>
   </div>
 </template>
