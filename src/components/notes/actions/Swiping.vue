@@ -1,6 +1,6 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">Swiping</p>
+    <p class="text-bold">Swiping (swipe for toast)</p>
 
     <p class="caption">Optional Modifiers: .horizontal / .vertical / .nomouse</p>
 
