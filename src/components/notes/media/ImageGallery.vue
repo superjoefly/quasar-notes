@@ -8,7 +8,7 @@
       <p class="caption">Gallery Carousel</p>
       <q-gallery-carousel :src="slider"></q-gallery-carousel>
 
-      <p class="caption">Gallery Carousel</p>
+      <p class="caption">Gallery Carousel - Horizontal Quick Preview</p>
       <q-gallery-carousel :src="slider" horizontal-quick-view></q-gallery-carousel>
 
       <p class="caption">Gallery Carousel with Infinite Scroll</p>
