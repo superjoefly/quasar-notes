@@ -45,7 +45,7 @@
     <q-tabs slot="navigation">
       <q-route-tab slot="title" icon="view_quilt" to="/" replace hide="icon" label="Home" />
 
-      <q-route-tab slot="title" icon="view_day" to="/communication" replace hide="icon" label="Communication" />
+      <q-route-tab slot="title" icon="view_day" to="/communication" replace hide="icon" label="Vuex" />
 
       <q-route-tab slot="title" icon="view_day" to="/style" replace label="Style" />
 
@@ -492,8 +492,7 @@
 
 
       <!-- Collapsibles -->
-      <q-collapsible indent icon="event" label="Event">
-
+      <q-collapsible indent icon="event" label="Q-Collapsible">
         <q-side-link item to="/community/events" replace>
           <q-item-side>
             <i class="fa fa-book"></i>
@@ -542,7 +541,7 @@
 
 
     <!-- BreadCrumbs -->
-    <!-- <q-fixed-position corner="top-right" :offset="[75, 0]">
+    <!-- <q-fixed-position corner="bottom-right" :offset="[75, 0]">
       <ul class="breadcrumb">
         <li>
           <router-link to="/" replace >
