@@ -29,7 +29,7 @@
         </q-btn>
       </div>
       <div>
-        <q-btn round small color="tertiary" @click="alertAsMethod('vertical_align_top')">
+        <q-btn round small color="tertiary" @click="alertAsMethod('top-center')">
           <q-icon name="arrow_upward" />
         </q-btn>
       </div>
