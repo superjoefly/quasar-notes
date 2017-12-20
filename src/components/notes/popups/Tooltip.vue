@@ -12,8 +12,9 @@
     <hr><hr>
     <br><br>
 
+    <p class="caption">One Second Delay:</p>
     <div class="bg-secondary text-white round-borders row flex-center" style="margin-top: 40px; width: 200px; height: 70px">
-      Once Second Delay
+      Hover...
       <q-tooltip :delay="1000" :offset="[0, 10]">Quasar Rocks!</q-tooltip>
     </div>
 
@@ -70,6 +71,7 @@
       <p class="caption" text-center>Configure the Tooltip Above</p>
       <p class="text-center">
         <q-chip tag color="primary">anchor = "{{anchor}}"</q-chip>
+        <br><br>
         <q-chip tag color="primary">self = "{{self}}"</q-chip>
       </p>
 
