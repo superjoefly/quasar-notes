@@ -1,6 +1,6 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">Panning</p>
+    <p class="text-bold">Panning (view in console...)</p>
 
     <p class="caption">Optional Modifiers: .horizontal / .vertical / .nomouse</p>
 
