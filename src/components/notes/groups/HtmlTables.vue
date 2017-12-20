@@ -3,7 +3,7 @@
     <div style="width: 500px; max-width: 90vw">
       <p class="text-bold">HTML Tables</p>
       <q-card>
-        <q-card-title>Configure</q-card-title>
+        <q-card-title>Configure Table Below</q-card-title>
         <q-card-separator />
         <q-card-main>
           <q-field label="Separators" :label-width="4" style="margin-top: 0">
