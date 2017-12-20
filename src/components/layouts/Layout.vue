@@ -33,9 +33,9 @@
 
 
     <!-- Search Bar (Small Screens) -->
-    <q-toolbar slot="header" color="primary" class="lt-md" style="padding: 0px;" >
+    <!-- <q-toolbar slot="header" color="primary" class="lt-md" style="padding: 0px;" >
       <q-search inverted v-model="search" color="none" />
-    </q-toolbar>
+    </q-toolbar> -->
 
 
 
