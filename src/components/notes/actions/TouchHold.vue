@@ -4,7 +4,7 @@
 
     <p class="caption">Optional Modifiers: .nomouse</p>
 
-    <div v-touch-hold="touchHold" style="width: 300px; height: 500px" class="bg-blue-3"></div>
+    <div v-touch-hold="touchHold" style="width: 300px; height: 300px" class="bg-blue-3"></div>
   </div>
 </template>
 

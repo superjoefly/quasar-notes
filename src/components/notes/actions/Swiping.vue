@@ -4,7 +4,7 @@
 
     <p class="caption">Optional Modifiers: .horizontal / .vertical / .nomouse</p>
 
-    <div v-touch-swipe.horizontal="userSwiped" style="width: 300px; height: 500px" class="bg-blue-3"></div>
+    <div v-touch-swipe.horizontal="userSwiped" style="width: 300px; height: 300px" class="bg-blue-3"></div>
 
   </div>
 </template>
