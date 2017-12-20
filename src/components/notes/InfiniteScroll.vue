@@ -35,7 +35,7 @@
           }
           done()
           this.items = this.items.concat(newItems)
-        }, 3000)
+        }, 2000)
       }
     }
   }
