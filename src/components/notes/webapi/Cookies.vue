@@ -2,6 +2,8 @@
   <div class="layout-padding">
     <p class="text-bold">Cookies</p>
 
+    <p class="caption">View results in console...</p>
+
     <pre><code class="language-js">
       import { Cookies } from 'quasar'
       console.log(Cookies)

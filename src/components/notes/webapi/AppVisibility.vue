@@ -1,6 +1,7 @@
 <template>
   <div class="layout-padding">
     <p class="text-bold">App Visibility</p>
+    <p class="caption">View results in console...</p>
 
     <p class="text-bold">
       <span class="desktop-only">Click</span>

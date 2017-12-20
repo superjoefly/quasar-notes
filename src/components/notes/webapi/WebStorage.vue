@@ -1,6 +1,7 @@
 <template>
   <div class="layout-padding">
     <p class="text-bold">Web Storage</p>
+    <p class="caption">View results in console...</p>
 
     <pre><code class="language-js">
       import { LocalStorage, SessionStorage } from 'quasar'
