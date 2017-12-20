@@ -1,6 +1,6 @@
 <template>
   <div class="layout-padding">
-    <p class="text-bold">JS Date</p>
+    <p class="text-bold">JS Date Object</p>
 
     <p>Today: {{ today }}</p>
 
