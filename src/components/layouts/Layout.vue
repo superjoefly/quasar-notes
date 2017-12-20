@@ -459,7 +459,7 @@
 
           <q-side-link item tag="a" to="other-utils" replace>
               <q-item-side icon="school" />
-              <q-item-main label="Other" sublabel="Other Utils" />
+              <q-item-main label="Other Utils" sublabel="Other Utils" />
           </q-side-link>
 
         </q-collapsible>
