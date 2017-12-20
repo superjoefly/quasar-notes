@@ -112,7 +112,7 @@
 
     <p>Q-input with Q-field</p>
 
-    <div class="bg-grey-9" style="height: 300px; width: 500px; padding: 10px;">
+    <div class="bg-grey-9" style="height: 300px; width: 500px; max-width: 90vw; padding: 10px;">
       <q-field icon="wifi" label="My Label" :count="10" helper="My Helper Text" :error="false" error-label="There was an error">
         <q-input v-model="test" dark color="lime" float-label="My Textfield"></q-input>
       </q-field>
