@@ -5,5 +5,4 @@ dist/
 statics/
 assets/
 npm-debug.log*
-cordova/platforms
-cordova/plugins
+cordova/
