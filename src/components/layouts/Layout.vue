@@ -2,7 +2,7 @@
 
   <!-- Configure "view" prop for QLayout -->
   <!-- 'reveal' hides header on scrolldown, and reveals on scrollup  -->
-  <q-layout ref="layout" reveal :left-class="{'bg-left': true}" @scroll="popup" @dblclick.native="openPanels">
+  <q-layout ref="layout" reveal :left-class="{'bg-left': true}" @scroll="popup" @dblclick.native="openPanels" v-touch-swipe.horizontal="swiped">
 
 
 
@@ -575,6 +575,7 @@
 </template>
 
 <script>
+/*eslint-disable*/
 export default {
   data () {
     return {
@@ -584,6 +585,11 @@ export default {
         {id: 2, name: 'Design'},
         {id: 3, name: 'Hacking'}
       ]
+    }
+  },
+  computed: {
+    currentPath () {
+      return this.$route.path
     }
   },
   methods: {
@@ -597,7 +603,44 @@ export default {
     openPanels () {
       // this.$refs.layout.toggleLeft()
       this.$refs.layout.toggleRight()
-    }
+    },
+    // Swipe for changing tabs
+    swiped (obj) {
+      let path = this.currentPath
+      let goto = function () {
+        if (obj.direction === 'right') {
+          if (path === '/') {
+            return
+          } else if (path === '/communication') {
+            return '/'
+          } else if (path === '/style') {
+            return '/communication'
+          } else if (path === '/platform') {
+            return '/style'
+          } else {
+            return '/platform'
+          }
+        } else if (obj.direction === 'left') {
+          if (path === '/') {
+            return '/communication'
+          } else if (path === '/communication') {
+            return '/style'
+          } else if (path === '/style') {
+            return '/platform'
+          } else {
+            return '/mail'
+          }
+        }
+      }
+      // If swipe is less than half window width, return
+      if (Math.abs(obj.distance.x) < 0.5 * window.innerWidth) {
+        return
+      }
+      // If goto returns a path, push to the router
+      if (goto()) {
+        this.$router.push(goto())
+      }
+    } // end swiped() method
   }
 }
 </script>
